@@ -1,5 +1,6 @@
-//Desafio: 
-/*const idade = 17
+//===========Desafio 1 VERIFICAR IDADE ============
+
+const idade = 17
 
 //Verificar se a pessoa é maior que 18 anos
 //se sim, deixar entrar, se não, bloquear a entrada.
@@ -16,18 +17,10 @@ if(idade === 17)
   console.log('Voltar quando tiver 18 anos')
 
 
-
-/*======================================
-      OPERADORES LÓGICOS
-      
-    && "E" As duas condições devem ser verdadeiras
-        para a condição final seja verdadeira.
-    || "OU" Uma das condições deve ser verdadeira
-        para que a condição final seja verdadeira.
-    !   "NÃO" nega uma condição.    
- ==================================================*/   
+//OU PODE SER FEITO ASSIM:
+  
     
- /*const idade = 18
+ const idade = 18
 
  //Verificar se a pessoa é maior que 18 anos
  //se sim, deixar entrar, se não, bloquear a entrada.
@@ -39,11 +32,11 @@ if(idade === 17)
      console.log('Deixe entrar')
 }
 
-=====================================================
-     DESAFIO 1
-Crie um programa para calcular o IMC e nível de obesidade de uma pessoa*/
+//===========Desafio 2 IMC ============
 
-/*const nome = 'Gabriel'
+//Crie um programa para calcular o IMC e nível de obesidade de uma pessoa
+
+const nome = 'Gabriel'
 const peso = 90
 const altura = 1.87
 
@@ -57,17 +50,15 @@ if(imc >= 30 ){
     console.log('Gabriel, voce não está acima do peso')
 
 }
- 
-*/
 
-//                  DESAFIO 2
+//===============DESAFIO 3 CÁLCULO APOSENTADORIA ================
 
 //Cálculo de aposentadoria
 //Crie um programa para calcular a aposentadoria de uma pessoa.
 //Obs.: Esse cálculo é fictício, dentro da aposentadoria existem muitos outros fatores para serem levados em conta :)
 //O tempo de contribuição mínimo para homens é de 35 anos e, para mulheres, 30 anos;
 
-/*const nome = 'Silvana'
+const nome = 'Silvana'
 const sexo = 'F'
 const idade = 48;
 const contribuição = 23;
@@ -80,9 +71,10 @@ if(idade + contribuição >=85){
     console.log('Silvana, voce pode se aposentar!')
 }else{
     console.log('Silvana, voce não pode se aposentar!')
-} */
+} 
 
-//DESAFIO 3============================================
+
+//OU TAMBÉM PODE SER FEITO DESSA FORMA:
 
 const nome = 'Silvana'
 const sexo = 'F'
@@ -100,40 +92,3 @@ if(HomempodeAposentar || MulherpodeAposentar){
 } else{
     console.log(`${nome}, voce não pode se aposentar!`)
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*console.log(5 == 5 && 6==6) //true
-console.log(5 == 5 && 6 != 6) //false
-
-console.log(5 == 5 || 6==6) //true
-console.log(5 == 5 || 6 != 6) //true
- 
-console.log(!(5 > 6) ) //true
-console.log(!(5 < 6) ) //false*/
